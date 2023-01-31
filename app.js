@@ -37,7 +37,6 @@ function sum(num1, num2) {
   var result = num1 + num2;
   return result;
 }
-
 function minus(num1, num2) {
   var result = num1 - num2;
   return result;
@@ -80,7 +79,7 @@ function workout(workoutName) {
 var workoutPlan = workout("chest");
 // console.log(workoutPlan);
 
-var myDays = 11;
+var myDays = 15;
 
 var first1To10Days = 500;
 var second11To20Days = 300;
@@ -104,7 +103,3 @@ if (myDays <= 10) {
     first1To10Days + second11To20Days + thirdinifinityDays;
   console.log(totoalAbove20DaysCost);
 }
-
-var num1 = 100;
-var num2 = 200;
-var sum = num1 + num2;
